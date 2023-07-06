@@ -137,7 +137,10 @@ a:hover
 {
     margin-top: 80px;
 }
-
+.mt-100
+{
+    margin-top: 120px;
+}
 .mb-0
 {
     margin-bottom: 0 !important;
@@ -343,7 +346,7 @@ a:hover
 
 body
 {
-    background: #f7af0a;
+    background: #E9EAED;
 }
 
 .top-k14-overview .text-overview
@@ -616,7 +619,7 @@ body
 
 .quick-test-form
 {
-    margin: 30px auto 60px;
+    margin: 30px auto 0px;
     position: relative;
 }
 
@@ -628,7 +631,7 @@ body
     font-size: 24px;
     line-height: 48px;
     color: #fff;
-    background: #d53a17;
+    background: #4C67A1;
 }
 
 .quick-test-form .bx-viewport
@@ -1279,10 +1282,10 @@ body
 .footer
 {
     height: 70px;
-    background: #000;
+    background: #FFA200;
     font-family: SSP-Regular;
     font-size: 16px;
-    color: #aaa;
+    color: #fff;
     text-align: center;
     line-height: 68px;
 }
@@ -1961,4 +1964,88 @@ body
     margin-top: 25px !important;
     width: 80%;
     margin: 0 auto;
+}
+.addthis_toolbox{
+    bottom:50px;
+    top:auto !important;
+}
+.banner{
+    height:380px;
+    background:url(banner.png) #FFA200 no-repeat ;
+    background-size:cover;
+    position:relative;
+     text-align:center;
+     padding-top:40px;
+}
+.banner h1{
+    color:#fff;
+    font-size:50px;
+    margin-bottom:40px;
+}
+.text-center,.form-header{
+    text-align:center;
+}
+.page-description{
+ background:#0696CB;
+ padding:20px;
+ width:calc(100% - 40px);
+  color:#fff;
+    font-size:25px; text-align:center;
+    line-height:35px
+    
+
+}
+
+.banner .text-center{
+        display: inline-block;
+    position: absolute;
+    right: 100px;
+}
+.first-page h3{
+    margin-bottom:20px;
+}
+.first-page li{
+    line-height:20px;
+}
+.first-page a:not(.begin-slider-qa){
+    color:#04A1DB;
+    text-decoration:none;
+}
+.timer{
+   width:170px;
+       padding-bottom: 8px;
+    position:fixed;
+    bottom:50%;
+    right:20px;
+    display:none;
+    
+}
+.timer .process{
+     background:#067df5;
+     position:absolute;
+     width:100%;
+     height:10%;
+     bottom:0;
+}
+.timer .phut,.giay{
+    float:left;
+    width:calc(50% - 22px);
+    padding:10px;
+    background:#FC6D4C;
+    text-align:center;
+    border-left:1px solid #f77455;
+
+}
+.timer .phut{
+border-right:1px solid #f15d3a;
+}
+.timer span{
+    color:#fff;
+    font-size:30px;
+    display:block;
+}
+.timer b{
+    color:#fff;
+    font-size:18px;
+    display:block;
 }
